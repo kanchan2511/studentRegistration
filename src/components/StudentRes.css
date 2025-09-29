@@ -1,0 +1,71 @@
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f4f7f8;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.student-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.student-form input[type="text"],
+.student-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.gender-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+.checkbox {
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #45a049;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-msg {
+  color: green;
+  margin-top: 10px;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-list li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
